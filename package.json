@@ -1,0 +1,12 @@
+{
+  "name": "oocompositor",
+  "version": "0.0.1",
+  "main": "./run.js",
+  "engines": {
+    "node": "0.10.*"
+  },
+  "dependencies": {
+    "architect": "0.1.*"
+  },
+  "debug": true
+}
