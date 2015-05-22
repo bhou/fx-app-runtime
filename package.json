@@ -1,5 +1,5 @@
 {
-  "name": "fx-app-runtime",
+  "name": "fx-runtime",
   "version": "0.1.0",
   "main": "./index.js",
   "engines": {
