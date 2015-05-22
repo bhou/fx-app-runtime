@@ -25,7 +25,7 @@ function start(home, architectConfig, printUsage) {
     return;
   }
 
-  var config = require(argv.c || architectConfig);
+  var config = require(argv.c || home + '/' + architectConfig);
   var tree = architect.resolveConfig(config, home);
   for (var i = 0; i < tree.length; i++) {
     tree[i].argv = argv;
@@ -72,4 +72,4 @@ function start(home, architectConfig, printUsage) {
 
 module.exports = {
   start: start
-}
+};
