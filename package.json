@@ -1,12 +1,12 @@
 {
-  "name": "oocompositor",
+  "name": "fx-app-runtime",
   "version": "0.0.1",
-  "main": "./run.js",
+  "main": "./index.js",
   "engines": {
     "node": "0.10.*"
   },
   "dependencies": {
-    "architect": "0.1.*"
-  },
-  "debug": true
+    "architect": "0.1.*",
+    "minimist": "1.1.x"
+  }
 }
